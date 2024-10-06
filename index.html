@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Макет страницы</title>
+</head>
+
+<body>
+    <section class="container">
+        <header>
+            <div class="header">
+                <h3>[Шапка страницы]</h3>
+            </div>
+        </header>
+        <main class="main">
+            <div class="wrapper">
+            <div class="part">
+                <h3>[Основная часть]</h3>
+            </div>
+            <div class="section">
+                <div class="subsection">
+                    <h3 class="text">[Ещё 1]</h3>
+                    <h3 class="text">[Ещё 2]</h3>
+                </div>
+                <h3 class="text2">[Ешё 3]</h3>
+            </div>
+            </div>
+            <div class="part2">
+                <h3>[Боковая часть]</h3>
+            </div>
+        </main>
+        <footer>
+            <div class="footer">
+                <h3 class="foot">[Секция футера 1]</h3>
+                <h3 class="foot">[Секция футера 2]</h3>
+                <h3 class="foot">[Секция футера 3]</h3>
+                <h3 class="foot">[Секция футера 4]</h3>
+            </div>
+        </footer>
+    </section>
+</body>
+
+</html>
+<!-- .container {
+    display: grid;
+    grid-template-rows: 20% 50% 30%;
+    grid-template-columns: 1fr; /* Одноколоночный макет для контейнера */
+    height: 100vh; /* Занимает всю высоту окна просмотра */
+}
+header {
+    text-align: center;
+    align-items: center;
+    background-color: rgb(220, 221, 221);
+    grid-column: 1; /* Шапка занимает всю колонку */
+    grid-row: 1; /* Первая строка */
+}
+main {
+    display: grid; /* Используем сетку для main */
+    grid-template-columns: 1fr 1fr; /* Две равные колонки для part и part2 */
+    border: 1px solid black;
+    background-color: #ee7878; /* Необязательно: добавить фон для лучшей наглядности */
+    grid-column: 1; /* Занимает всю ширину контейнера */
+    grid-row: 2; /* Вторая строка */
+}
+.part, .part2 {
+    padding: 1rem; /* Добавить отступ для лучшего расположения */
+}
+.section {
+    display: flex;
+    flex-direction: column; /* Расположение подчастей по вертикали */
+    padding: 1rem; /* Необязательные отступы */
+}
+footer {
+    grid-column: 1; /* Подвал во всю ширину */
+    grid-row: 3; /* Третья строка */
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 1rem; /* Добавить отступы к подвалу */
+} -->
